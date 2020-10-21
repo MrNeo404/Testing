@@ -8,8 +8,7 @@ remove = mfile[2:-1]
 myFile.close()
 
 saveFile = open("Completed.txt", "w")
-data = remove
-saveFile.write(data)
+saveFile.write(remove)
 saveFile.close()
 
 print("Completed ^_^")
