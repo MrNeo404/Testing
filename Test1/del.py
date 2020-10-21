@@ -1,7 +1,7 @@
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-inputFile = input("Name File: ")
+inputFile = input("File Name: ")
 myFile = open(f"{inputFile}", "r")
 mfile = myFile.read()
 remove = mfile[2:-1]
